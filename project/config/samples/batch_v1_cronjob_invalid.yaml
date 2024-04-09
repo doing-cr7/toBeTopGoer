@@ -1,5 +1,5 @@
-apiVersion: batch.tutorial.kubebuilder.io/v1
-kind: CronJob1
+apiVersion: batch.tutorial.kubebuilder.io/v2
+kind: CronJob
 metadata:
   labels:
     app.kubernetes.io/name: cronjob
